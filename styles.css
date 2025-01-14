@@ -6,7 +6,7 @@
 }
 
 /* Class styles */
-.menu-container {
+.menu-container {    
     color: #fff;
     background-color: #5995DA; /* Blue */
     padding: 20px 0;
@@ -15,7 +15,17 @@
     justify-content: center; /* Define horizontal alignment */
 }
 
-.menu {
-    border: 1px solid #fff; /* For debugging */
+.menu {    
     width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
 }
