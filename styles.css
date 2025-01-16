@@ -30,7 +30,7 @@
     margin-left: 20px;
 }
 
-.head-container {
+.header-container {
     color: #5995DA;
     background-color: #D6E9FE;
     display: flex;
@@ -42,4 +42,6 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
+    /* ... */
+    align-items: center;
 }
